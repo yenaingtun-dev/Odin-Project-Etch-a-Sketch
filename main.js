@@ -12,11 +12,11 @@ function buildGrid(x, y, cellSize, gridElement) {
         squares.appendChild(square);
 
         square.addEventListener('mouseenter', function (e) {
-            square.style.backgroundColor = 'white';
+            square.style.backgroundColor = "#" + ((1 << 24) * Math.random() | 0).toString(16).padStart(6, "0");
         })
 
         resetButton.addEventListener('click', () => {
-            square.style.backgroundColor = 'red';
+            square.style.backgroundColor = 'white';
         })
     }
 

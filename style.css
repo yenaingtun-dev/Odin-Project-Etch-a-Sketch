@@ -10,16 +10,14 @@
 }
 
 .square {
-    background-color: red;
-    border: 1px solid #d63d26;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .button-group {
     display: flex;
-    /* width: 10px; */
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
 }
 
 .button {
